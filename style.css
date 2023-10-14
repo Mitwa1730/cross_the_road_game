@@ -1,0 +1,74 @@
+/* Author: Mitwa Patel, 000905034 
+Date: 1st August, 2023
+This file represents styling for the different elements required for the appearance and fulfilment for the "Cross The Road" game  */
+
+.gameTitle{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 17%;
+    font-size: 180%;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(72, 70, 70);  
+}
+
+.start{
+    color: white;
+    background-color: rgb(72, 70, 70);
+    width: 110px;
+    height: 47px;
+    border-radius: 26px;
+    border: 2px solid black;
+    margin-left: 40%;
+    font-size: 27px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5%;
+}
+
+.start:hover{
+    color: white;
+    background-color: green;
+}
+
+.theme, .score, .details{
+    fill: rgb(72, 70, 70);
+    font-size: 120%;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.gameOver{
+    font-size: 40px;
+}
+
+.list{
+    padding-left: 20%;
+}
+
+.note{
+    margin-left: 20%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.dayTheme{
+    margin: 7px;
+}
+
+.dayTheme:hover{
+    color: white;
+    background-color: lightskyblue;
+}
+
+.nightTheme:hover{
+    color: white;
+    background-color: rgb(16, 16, 64);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: rgb(72, 70, 70);  
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
